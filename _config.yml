@@ -1,28 +1,40 @@
-name: hmll
-favicon: null
-layout_spectrum: 0.8032156727276742
-typography_spectrum: 0.061120715690776706
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0
+  brandStrength: 0.06043627765029669
+  lightness: 0.327957
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-  brandStrength: 0.06043627765029669
-  lightness: 0.47604432981461287
-  saturation: 0.0845565798226744
-  rhythmicContrast: 0.5485395407304168
-purpose: []
+  rhythmicContrast: 0.7580645
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+name: hmll
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.06112071569077671
+layout_spectrum: 0.7222222
